@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<!-- Google web fonts API - change this link for a different font (see http://www.google.com/webfonts) also change 'font-family' inside style.css-->
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'> 
+
+<!-- metadata - helps giving info to search engines: change content values accordingly -->
+<meta name="author" content="Grupo Otelo Ribeiro, Diogo Cid e Mariza Marques" />
+<meta name="description" content="Candidatos ao estagio RTP" />
+<meta name="keywords" content="Academia RTP" />
+
+<!-- browser tab title: change content accordingly -->
+<title>Contagem:academia RTP</title>
+
+<!-- browser tab icon -->
+<link rel="icon" href="img/load_icon.ico" />
+
+<!-- css3 responsible for colors, fonts, animations, etc. -->
+<link rel="stylesheet" href="style.css"/>
+
+<!-- tool for simple access to html divs and helping on animations -->
+<script src="js/jquery.js"></script>
+
+<script src="js/sobre.js"></script>
+
+
+<!-- configuration file for javascript variables -->
+<script src="config/config.js"></script>
+
+
+<!-- preloader script assures that website is displayed when images are all ready to be displayed -->
+<script src="js/preloader.js"></script>
+
+<!-- utility functions should be loaded beforehand -->
+<script src="js/utils.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28793871-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+</head>
+<body>
+    
+<div id="menu">
+    <span id="sobre">
+	<a title="Info" href="javascript:sobrenos()">Info</a>
+	</span>
+
+<span id="face">
+	<span id="fb-bt"></span>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=208677149220235";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="http://www.academiacountdown.info" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false"></div>
+</span>
+</div>
+<div class="container" id="container" align="center">
+
+<div id="AlertBox" class="alert">
+   <div align="center">
+        	<div id="conteudo">
+        		A contagem decrescente não pára e o dia está cada vez mais próximo,
+        		<a href="http://www.facebook.com/profile.php?id=1150811619" target="_blank">Diogo Cid</a>,
+        		<a href="http://www.facebook.com/profile.php?id=100000025564751" target="_blank">Marisa Marques</a> e
+        		<a href="http://www.facebook.com/otelomiguel" target="_blank">Otelo Ribeiro</a>,
+        		 candidatos à 2ª edição da Academica RTP, criam 'countdown' do tempo que falta. Até lá aguardamos pelo dia 6 de Fevereiro!</br> Boa sorte a todos!
+        	</div>
+        	<a class="link" href="#"  onclick="document.getElementById('AlertBox').style.display='none'">
+            <div id="fechar" title="Fechar">Fechar</div></a>
+   	</div>
+</div>
+
+	<!-- top logo: change the image according to your company's logo -->
+
+	
+	<!-- countdown panel -->
+	<div class="main">
+		<div class="title">
+		Contagem decrescente para academia RTP
+		</div>
+		<div class="timer">
+			<div class="timer-digits">
+				<div class="timer-digit-left">
+					<div id="days-bottomleft-div" class="timer-half-digit-top">
+						<img id="days-topleft" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="days-bottomleft-div" class="timer-half-digit-bottom">
+						<img id="days-bottomleft" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="days-topleft-back-div" class="timer-half-digit-top-back">
+						<img id="days-topleft-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="days-bottomleft-back" id="days-bottomleft-back-div" class="timer-half-digit-bottom-back">
+						<img id="days-bottomleft-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+				<div class="timer-digit-right">
+					<div id="days-topright-div" class="timer-half-digit-top">
+						<img id="days-topright" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="days-bottomright-div" class="timer-half-digit-bottom">
+						<img id="days-bottomright" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="days-topright-back-div" class="timer-half-digit-top-back">
+						<img id="days-topright-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="days-bottomright-back-div" class="timer-half-digit-bottom-back">
+						<img id="days-bottomright-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+			</div>
+			<div class="timer-digits">
+				<div class="timer-digit-left">
+					<div id="hours-topleft-div" class="timer-half-digit-top">
+						<img id="hours-topleft" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="hours-bottomleft-div" class="timer-half-digit-bottom">
+						<img id="hours-bottomleft" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="hours-topleft-back-div" class="timer-half-digit-top-back">
+						<img id="hours-topleft-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="hours-bottomleft-back-div" class="timer-half-digit-bottom-back">
+						<img id="hours-bottomleft-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+				<div class="timer-digit-right">
+					<div id="hours-topright-div" class="timer-half-digit-top">
+						<img id="hours-topright" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="hours-bottomright-div" class="timer-half-digit-bottom">
+						<img id="hours-bottomright" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="hours-topright-back-div" class="timer-half-digit-top-back">
+						<img id="hours-topright-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="hours-bottomright-back-div" class="timer-half-digit-bottom-back">
+						<img id="hours-bottomright-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+
+			</div>
+			<div class="timer-digits">
+				<div class="timer-digit-left">
+					<div id="minutes-topleft-div" class="timer-half-digit-top">
+						<img id="minutes-topleft" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="minutes-bottomleft-div" class="timer-half-digit-bottom">
+						<img id="minutes-bottomleft" src="img/0_panel_down_piece.png" />
+					</div>
+
+					<div id="minutes-topleft-back-div" class="timer-half-digit-top-back">
+						<img id="minutes-topleft-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="minutes-bottomleft-back-div" class="timer-half-digit-bottom-back">
+						<img id="minutes-bottomleft-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+				<div class="timer-digit-right">
+					<div id="minutes-topright-div" class="timer-half-digit-top">
+						<img id="minutes-topright" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="minutes-bottomright-div" class="timer-half-digit-bottom">
+						<img id="minutes-bottomright" src="img/0_panel_down_piece.png" />
+					</div>
+
+					<div id="minutes-topright-back-div" class="timer-half-digit-top-back">
+						<img id="minutes-topright-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="minutes-bottomright-back-div" class="timer-half-digit-bottom-back">
+						<img id="minutes-bottomright-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+
+			</div>
+			<div class="timer-digits">
+				<div class="timer-digit-left">
+					<div id="seconds-topleft-div" class="timer-half-digit-top">
+						<img id="seconds-topleft" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="seconds-bottomleft-div" class="timer-half-digit-bottom">
+						<img id="seconds-bottomleft" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="seconds-topleft-back-div" class="timer-half-digit-top-back">
+						<img id="seconds-topleft-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="seconds-bottomleft-back-div" class="timer-half-digit-bottom-back">
+						<img id="seconds-bottomleft-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+				<div class="timer-digit-right">
+					<div id="seconds-topright-div" class="timer-half-digit-top">
+						<img id="seconds-topright" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="seconds-bottomright-div" class="timer-half-digit-bottom">
+						<img id="seconds-bottomright" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div id="seconds-topright-back-div" class="timer-half-digit-top-back">
+						<img id="seconds-topright-back" src="img/0_panel_up_piece.png" />
+					</div>
+					<div id="seconds-bottomright-back-div" class="timer-half-digit-bottom-back">
+						<img id="seconds-bottomright-back" src="img/0_panel_down_piece.png" />
+					</div>
+					
+					<div class="timer-pulley-left">
+					</div>
+					<div class="timer-pulley-right">
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="timer-labels">
+			<ul>
+				<li>DIAS</li>
+				<li class="h">HORAS</li>
+				<li class="m">MINUTOS</li>
+				<li class="s">SEGUNDOS</li>
+			</ul>
+		</div>
+
+		<div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=208677149220235";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+		<div class="fb-comments" data-href="http://www.academiacountdown.info" data-num-posts="100" data-width="600" data-colorscheme="light"></div>
+		<div id="footer">©Todos os direitos reservados 2012</br> Compatível com: Internet Explorer 9</div>
+
+
+	</div>
+
+	
+	<!-- countdown variables configuration: CHANGE values accordingly in config.js</br> -->
+	<script>
+		var target = config.default.target;
+		var countdown_active = config.default.countdown_active;
+		
+		// replace links and div contents with the ones inside 'config/config.js' file
+		document.getElementById("notification_label").innerHTML=config.default.subscription_message;
+		document.getElementById("logo_image").src=config.default.logo
+	</script>
+	<script src="js/countdown.js"></script>
+	
+</div>
+
+
+</body>
+</html>
