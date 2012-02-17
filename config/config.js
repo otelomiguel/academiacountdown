@@ -6,7 +6,7 @@ var config =
 {
 	default: {
 		logo: "img/load_logo.png",
-		target: "03/06/2012 11:00 PM",
+		target: "02/06/2012 11:00 PM",
 		countdown_active: true
 		
 	}	
