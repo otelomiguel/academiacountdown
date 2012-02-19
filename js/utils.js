@@ -4,8 +4,8 @@
 //	the structure BrowserDetect with 'BrowserDetect.browser'
 ////
 var BrowserDetect = {
-	init: function () {/*
-		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";*/
+	init: function () {
+		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
 		this.version = this.searchVersion(navigator.userAgent)
 			|| this.searchVersion(navigator.appVersion)
 			|| "an unknown version";
