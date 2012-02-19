@@ -1,15 +1,14 @@
-
 ////
 // browser detection feature
 //	after this script runs, we can simply get current browser name via
 //	the structure BrowserDetect with 'BrowserDetect.browser'
 ////
 var BrowserDetect = {
-	init: function () {
+	init: function () {/*
 		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
 		this.version = this.searchVersion(navigator.userAgent)
 			|| this.searchVersion(navigator.appVersion)
-			|| "an unknown version";
+			|| "an unknown version";*/
 		this.OS = this.searchString(this.dataOS) || "an unknown OS";
 	},
 	searchString: function (data) {
