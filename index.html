@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<!--<link rel="canonical" href="http://www.academiacountdown.info/"/>-->
 <meta charset="utf-8" />
 
-<link href="img/fundo.png" />
+
 
 <!-- metadata - helps giving info to search engines: change content values accordingly -->
 <meta name="author" content="Grupo Otelo Ribeiro, Diogo Cid e Mariza Marques" />
@@ -18,6 +16,7 @@
 <!-- browser tab icon -->
 <link rel="icon" href="img/load_icon.ico" />
 
+<link href="img/fundo.png" />
 <!-- css3 responsible for colors, fonts, animations, etc. -->
 <link rel="stylesheet" href="style.css"/>
 
@@ -26,7 +25,7 @@
 
 <script src="js/sobre.js"></script>
 
-<meta property="fb:admins" content="1150811619" />
+
 <!-- configuration file for javascript variables -->
 <script src="config/config.js"></script>
 
@@ -49,16 +48,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script><!-- Google web fonts API - change this link for a different font (see http://www.google.com/webfonts) also change 'font-family' inside style.css-->
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'> 
  <style type="text/css">
     .gradient {
        filter: none;
     }
   </style>
- 
-<!-- Google web fonts API - change this link for a different font (see http://www.google.com/webfonts) also change 'font-family' inside style.css-->
-<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'> 
-
 </head>
 <body>
     
@@ -73,22 +69,22 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=208677149220235";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-like" data-href="http://academiacountdown.info" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false"></div></span>
+	<div class="fb-like" data-href="http://academiacountdown.info" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false"></div>
+</span>
 </div>
 <div class="container" id="container" align="center">
 
 <div id="AlertBox" class="alert">
    <div align="center">
         	<div id="conteudo">
-        		A contagem decrescente não pára e o dia está cada vez mais próximo.
+        		A contagem decrescente não pára e o dia está cada vez mais próximo,
         		<a href="http://www.facebook.com/profile.php?id=1150811619" target="_blank">Diogo Cid</a>,
         		<a href="http://www.facebook.com/profile.php?id=100000025564751" target="_blank">Marisa Marques</a> e
         		<a href="http://www.facebook.com/otelomiguel" target="_blank">Otelo Ribeiro</a>,
-        		 candidatos à 2ª edição da Academica RTP, criam 'countdown'. Até lá aguardamos pelo dia 6 de Fevereiro!</br> Boa sorte a todos!
+        		 candidatos à 2ª edição da Academica RTP, criam 'countdown' do tempo que falta. Até lá aguardamos pelo dia 6 de Fevereiro!</br> Boa sorte a todos!
         	</div>
         	<a class="link" href="#"  onclick="document.getElementById('AlertBox').style.display='none'">
             <div id="fechar" title="Fechar">Fechar</div></a>
@@ -103,7 +99,7 @@
 		<div class="title">
 		Contagem decrescente para academia RTP
 		</div>
-		
+
 		<div class="finish" style="margin-top:60px;color:white;font-size: 24px;">
 		Quando houver novidades publicaremos aqui. Boa sorte a todos!
 		</div>
@@ -116,14 +112,14 @@
 					<div id="days-bottomleft-div" class="timer-half-digit-bottom">
 						<img id="days-bottomleft" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="days-topleft-back-div" class="timer-half-digit-top-back">
 						<img id="days-topleft-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="days-bottomleft-back" id="days-bottomleft-back-div" class="timer-half-digit-bottom-back">
 						<img id="days-bottomleft-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -136,14 +132,14 @@
 					<div id="days-bottomright-div" class="timer-half-digit-bottom">
 						<img id="days-bottomright" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="days-topright-back-div" class="timer-half-digit-top-back">
 						<img id="days-topright-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="days-bottomright-back-div" class="timer-half-digit-bottom-back">
 						<img id="days-bottomright-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -158,14 +154,14 @@
 					<div id="hours-bottomleft-div" class="timer-half-digit-bottom">
 						<img id="hours-bottomleft" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="hours-topleft-back-div" class="timer-half-digit-top-back">
 						<img id="hours-topleft-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="hours-bottomleft-back-div" class="timer-half-digit-bottom-back">
 						<img id="hours-bottomleft-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -178,14 +174,14 @@
 					<div id="hours-bottomright-div" class="timer-half-digit-bottom">
 						<img id="hours-bottomright" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="hours-topright-back-div" class="timer-half-digit-top-back">
 						<img id="hours-topright-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="hours-bottomright-back-div" class="timer-half-digit-bottom-back">
 						<img id="hours-bottomright-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -208,7 +204,7 @@
 					<div id="minutes-bottomleft-back-div" class="timer-half-digit-bottom-back">
 						<img id="minutes-bottomleft-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -228,7 +224,7 @@
 					<div id="minutes-bottomright-back-div" class="timer-half-digit-bottom-back">
 						<img id="minutes-bottomright-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -244,14 +240,14 @@
 					<div id="seconds-bottomleft-div" class="timer-half-digit-bottom">
 						<img id="seconds-bottomleft" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="seconds-topleft-back-div" class="timer-half-digit-top-back">
 						<img id="seconds-topleft-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="seconds-bottomleft-back-div" class="timer-half-digit-bottom-back">
 						<img id="seconds-bottomleft-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -264,14 +260,14 @@
 					<div id="seconds-bottomright-div" class="timer-half-digit-bottom">
 						<img id="seconds-bottomright" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div id="seconds-topright-back-div" class="timer-half-digit-top-back">
 						<img id="seconds-topright-back" src="img/0_panel_up_piece.png" />
 					</div>
 					<div id="seconds-bottomright-back-div" class="timer-half-digit-bottom-back">
 						<img id="seconds-bottomright-back" src="img/0_panel_down_piece.png" />
 					</div>
-					
+
 					<div class="timer-pulley-left">
 					</div>
 					<div class="timer-pulley-right">
@@ -280,7 +276,7 @@
 
 			</div>
 		</div>
-		
+
 		<div class="timer-labels">
 			<ul>
 				<li>DIAS</li>
@@ -290,6 +286,7 @@
 			</ul>
 		</div>
 
+	<a  style="float:left; margin:220px 0px 0px 15px;color:#fff ;text-decoration:underline" title="Resultados" href="http://img.rtp.pt/icm/academia/docs/c0/c0baf4c76e2e04589df58986e66bd628_46376bf31681aa1030e57ad5bb90569f.pdf">Resultados</a>
 		<div id="fb-root"></div>
                 <script>(function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -304,19 +301,20 @@
 
 	</div>
 
-	
+
 	<!-- countdown variables configuration: CHANGE values accordingly in config.js</br> -->
 	<script>
 		var target = config.default.target;
 		var countdown_active = config.default.countdown_active;
-		
+
 		// replace links and div contents with the ones inside 'config/config.js' file
 		document.getElementById("notification_label").innerHTML=config.default.subscription_message;
 		document.getElementById("logo_image").src=config.default.logo
 	</script>
 	<script src="js/countdown.js"></script>
-	
+
 </div>
+
 
 
 </body>
