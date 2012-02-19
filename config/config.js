@@ -6,7 +6,7 @@ var config =
 {
 	default: {
 		logo: "img/load_logo.png",
-		target: "24/12/2012 11:00 PM",
+		target: "04/08/2012 00:00 PM",//pascoa
 		countdown_active: true
 		
 	}	
