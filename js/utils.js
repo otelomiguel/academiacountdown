@@ -4,8 +4,8 @@
 //	the structure BrowserDetect with 'BrowserDetect.browser'
 ////
 var BrowserDetect = {
-	init: function () {/*
-		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";*/
+	init: function () {
+		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
 		this.version = this.searchVersion(navigator.userAgent)
 			|| this.searchVersion(navigator.appVersion)
 			|| "an unknown version";
@@ -29,12 +29,12 @@ var BrowserDetect = {
 		if (index == -1) return;
 		return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
 	},
-	dataBrowser: [
+	dataBrowser: [/*
 		{
 			string: navigator.userAgent,
 			subString: "Chrome",
 			identity: "Chrome"
-		},
+		},*/
 		{ 	string: navigator.userAgent,
 			subString: "OmniWeb",
 			versionSearch: "OmniWeb/",
